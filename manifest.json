@@ -1,0 +1,49 @@
+{
+  "manifest_version": 2,
+  "name": "Image Searcher",
+  "version": "0.0.1",
+  "description": "Search images on various search pages, with customization available",
+  "author": "TheNamlessGuy",
+  "homepage_url": "https://github.com/TheNamlessGuy/image-searcher",
+  "developer": {
+    "name": "TheNamlessGuy",
+    "url": "https://github.com/TheNamlessGuy/image-searcher"
+  },
+
+  "icons": {
+    "16": "res/icons/plugin/16.png",
+    "19": "res/icons/plugin/19.png",
+    "32": "res/icons/plugin/32.png",
+    "38": "res/icons/plugin/38.png",
+    "48": "res/icons/plugin/48.png"
+  },
+
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "bookmarks",
+    "menus"
+  ],
+
+  "background": {
+    "scripts": [
+      "src/options/bookmark.js",
+      "src/options/opts.js",
+      "src/communication.js",
+      "src/contextmenu.js",
+
+      "src/background.js"
+    ]
+  },
+
+  "options_ui": {
+    "page": "src/options/page/index.html",
+    "browser_style": true
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "image-searcher@TheNamlessGuy.github.io"
+    }
+  }
+}
