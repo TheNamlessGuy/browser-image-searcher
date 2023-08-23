@@ -3,7 +3,7 @@ A firefox plugin that lets you right click and search an image using various web
 * Yandex
 * Google
 * TinEye
-* SauceNAO
+* SauceNAO  
 with the option of adding your own.
 
 ## Get
