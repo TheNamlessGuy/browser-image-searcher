@@ -51,7 +51,7 @@ const ContextMenu = {
       };
 
       await browser.tabs.create({
-        active: false,
+        active: info.button === 0 && info.modifiers.length === 0,
         openerTabId: tab.id,
         windowId: tab.windowId,
         url: engine.url.replaceAll('{{url.encoded}}', img.url.encoded)

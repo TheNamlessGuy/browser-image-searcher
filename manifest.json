@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Image Searcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Search images on various search pages, with customization available",
   "author": "TheNamlessGuy",
   "homepage_url": "https://github.com/TheNamlessGuy/image-searcher",
